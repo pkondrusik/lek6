@@ -9,6 +9,7 @@ public class Main {
         System.out.println(auto.info());
         auto.tankuj(15);
         System.out.println(auto.info());
+        jakiMotor.wylacz();
 
         Dizelek jakiMotor1 = new Dizelek();
         Dostawczy bus = new Dostawczy("merol", "sprinter", "PO COTO", "czern typu kongo", 19000, 20, jakiMotor1.getJaki(), 50, 990000, 3000, 3);
@@ -16,6 +17,7 @@ public class Main {
         bus.jedz(150);
         bus.tankuj(20);
         System.out.println(bus.info());
+        jakiMotor1.wlacz();
 
 
     }
